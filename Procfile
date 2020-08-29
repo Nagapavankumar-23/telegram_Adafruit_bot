@@ -1,1 +1,1 @@
-worker: python Create telegram_Adafruit_bot.py
+worker: python telegram_Adafruit_bot.py

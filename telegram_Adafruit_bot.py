@@ -16,7 +16,7 @@ def send_value(value):
   aio.send_data(feed.key,value)
 
 def input_message(update, context):
-  text=update.message.text.upper()
+  text=update.message.text
   if text == 'turn on':
     send_value(1)
     context.bot.send_message(chat_id=update.effective_chat.id,text="Led turned on")
